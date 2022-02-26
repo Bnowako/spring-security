@@ -15,3 +15,16 @@ Useful sources
 - [OWASP csrf](https://owasp.org/www-community/attacks/csrf)
 
 ## Hello Spring Security
+
+### Basic Auth
+
+ - Every http request neets credentials in header in form 'Authorization: Basic <credentials>
+ - base64 encoding for id and pass
+ - Use with HTTP to provide confidentiality 
+ - Browser needs do cache credentials
+
+
+
+
+
+
