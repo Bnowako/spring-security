@@ -28,3 +28,9 @@ Read more about [BA](https://datatracker.ietf.org/doc/html/rfc7617)
 
 
 
+---
+
+Free thoughts
+ - Mix of differenet styles of configuration Spring Security in the same app is undesirable. One of the main factors is the speed with which Spring ecosystem evolved
+
+
