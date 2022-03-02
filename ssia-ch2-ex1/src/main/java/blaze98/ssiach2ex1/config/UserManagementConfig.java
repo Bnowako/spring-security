@@ -1,5 +1,6 @@
 package blaze98.ssiach2ex1.config;
 
+import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -13,19 +14,8 @@ import org.springframework.security.provisioning.InMemoryUserDetailsManager;
 
 @Configuration
 @EnableAsync
+@RequiredArgsConstructor
 public class UserManagementConfig {
-
-    @Bean
-    public UserDetailsService userDetailsService() {
-        var userDetailsService = new InMemoryUserDetailsManager();
-        var user = User.withUsername("john")
-                .password("12345")
-                .authorities("read")
-                .build();
-        userDetailsService.createUser(user);
-
-        return userDetailsService;
-    }
 
     @Bean
     public PasswordEncoder passwordEncoder() {
