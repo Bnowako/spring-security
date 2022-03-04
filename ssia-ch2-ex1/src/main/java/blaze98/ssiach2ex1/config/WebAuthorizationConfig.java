@@ -17,7 +17,6 @@ public class WebAuthorizationConfig extends WebSecurityConfigurerAdapter {
     @Override
     protected void configure(HttpSecurity http) throws Exception {
         http.formLogin();
-        http.authorizeRequests().anyRequest().authenticated();
         http.formLogin()
                 .successHandler(authenticationSuccessHandler)
                 .failureHandler(authenticationFailureHandler);
@@ -25,8 +24,6 @@ public class WebAuthorizationConfig extends WebSecurityConfigurerAdapter {
                 .anyRequest().authenticated();
         http.formLogin()
                 .defaultSuccessUrl("/home", true);
-        http.authorizeRequests()
-                .anyRequest().authenticated();
     }
 
 }
