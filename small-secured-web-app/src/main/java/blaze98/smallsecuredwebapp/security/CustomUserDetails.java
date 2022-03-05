@@ -1,5 +1,6 @@
-package blaze98.smallsecuredwebapp.user;
+package blaze98.smallsecuredwebapp.security;
 
+import blaze98.smallsecuredwebapp.user.User;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;

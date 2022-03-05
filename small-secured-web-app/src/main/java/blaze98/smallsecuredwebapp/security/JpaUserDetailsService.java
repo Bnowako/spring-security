@@ -1,5 +1,6 @@
-package blaze98.smallsecuredwebapp.user;
+package blaze98.smallsecuredwebapp.security;
 
+import blaze98.smallsecuredwebapp.user.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
