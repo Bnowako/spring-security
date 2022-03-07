@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/jwt-secured-app/auth-server/auth-server.iml" filepath="$PROJECT_DIR$/jwt-secured-app/auth-server/auth-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jwt-secured-app/business-logic-server/business-logic-server.iml" filepath="$PROJECT_DIR$/jwt-secured-app/business-logic-server/business-logic-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/small-secured-web-app/small-secured-web-app.iml" filepath="$PROJECT_DIR$/small-secured-web-app/small-secured-web-app.iml" />
     </modules>
   </component>

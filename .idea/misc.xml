@@ -5,6 +5,7 @@
       <list>
         <option value="$PROJECT_DIR$/small-secured-web-app/pom.xml" />
         <option value="$PROJECT_DIR$/jwt-secured-app/auth-server/pom.xml" />
+        <option value="$PROJECT_DIR$/jwt-secured-app/business-logic-server/pom.xml" />
       </list>
     </option>
   </component>
