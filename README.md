@@ -26,6 +26,9 @@ Useful sources
 Read more about [BA](https://datatracker.ietf.org/doc/html/rfc7617)
 
 
+# OAuth 2
+
+
 
 
 ---
